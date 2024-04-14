@@ -7,7 +7,7 @@ jobs:
   use-container:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/TenteMarrero/testimage:latest
+      image: ghcr.io/tentemarrero/testimage:latest
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
